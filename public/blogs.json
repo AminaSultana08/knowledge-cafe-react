@@ -1,0 +1,53 @@
+[
+    {
+      "Id": 1,
+      "cover": "https://i.ibb.co/9nMMMm3/yeshi-kangrang-P-2-Cxt-Qv-UQY-unsplash.jpg",
+      "title": "Lorem Ipsum",
+      "author": "https://i.ibb.co/TTVPscW/ethan-hoover-0-YHIlxe-Cuhg-unsplash-1.jpg",
+      "author-Img": "https://example.com/john_doe.jpg",
+      "posted_date": "2023-09-12",
+      "reading_time": "10 mins",
+      "hashtags": ["#LoremIpsum", "#FakeData", "#OpenAI"]
+    },
+    {
+      "Id": 2,
+      "cover": "https://i.ibb.co/h75ZNQf/jaredd-craig-HH4-WBGNyltc-unsplash.jpg",
+      "title": "Dolor Sit Amet",
+      "author": "https://i.ibb.co/nBpqd6D/stefan-stefancik-QXev-Dflbl8-A-unsplash.jpg",
+      "author-Img": "https://example.com/jane_smith.jpg",
+      "posted_date": "2023-09-13",
+      "reading_time": "8 mins",
+      "hashtags": ["#DolorSitAmet", "#FakeData", "#OpenAI"]
+    },
+    {
+      "Id": 3,
+      "cover": "https://i.ibb.co/bs3FsbJ/brigitte-tohm-EAay7-Aj4jbc-unsplash.jpg",
+      "title": "Consectetur Adipiscing",
+      "author": "James Johnson",
+      "author-Img": "https://example.com/james_johnson.jpg",
+      "posted_date": "2023-09-14",
+      "reading_time": "12 mins",
+      "hashtags": ["#ConsecteturAdipiscing", "#FakeData", "#OpenAI"]
+    },
+    {
+      "Id": 4,
+      "cover": "https://i.ibb.co/3WH2gCd/a-l-vrqa96bol-Ac-unsplash.jpg",
+      "title": "Sed Do Eiusmod",
+      "author": "https://i.ibb.co/4smKgPc/nazanin-mousavi-572z-AZSf7d-M-unsplash.jpg",
+      "author-Img": "https://i.ibb.co/sgPWCGx/handsome-mature-businessman-looking-confident-smiling.jpg",
+      "posted_date": "2023-09-15",
+      "reading_time": "7 mins",
+      "hashtags": ["#SedDoEiusmod", "#FakeData", "#OpenAI"]
+    },
+    {
+      "Id": 5,
+      "cover": "https://i.ibb.co/MCQbtLZ/flat-lay-desk-dark-concept-with-copy-space.jpg",
+      "title": "Tempor Incididunt",
+      "author": "https://i.ibb.co/bjhrz7V/hannah-olinger-NXi-IVnz-Bw-Z8-unsplash.jpg",
+      "author-Img": "https://example.com/michael_brown.jpg",
+      "posted_date": "2023-09-16",
+      "reading_time": "9 mins",
+      "hashtags": ["#TemporIncididunt", "#FakeData", "#OpenAI"]
+    }
+  ]
+  
