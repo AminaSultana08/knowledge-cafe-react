@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import PropTypes from 'prop-types';
 import {  FaBookmark } from 'react-icons/fa';
 
 const Blog = ({blog,handleAddToBookmark,handleMarkAsRead}) => {
-    const {title,cover,author,author_img,reading_time, posted_date,hashtags} = blog
+    const {id,title,cover,author,author_img,reading_time, posted_date,hashtags} = blog
     return (
         <div className='mb-20 '  >
         <img className='w-full mb-8'  src={cover} alt={`Cover picture of the title ${title} `}/>
@@ -27,7 +28,7 @@ const Blog = ({blog,handleAddToBookmark,handleMarkAsRead}) => {
                 hashtags.map((hash,idx)=> <span key={idx}  > <a href="">#{hash}</a> </span> )
             }
             </p>
-            <button className='text-bold text-purple-600 underline' onClick={()=>handleMarkAsRead(reading_time)} >Mark as Read</button>
+            <button className='text-bold text-purple-600 underline' onClick={()=>handleMarkAsRead(id, reading_time)} >Mark as Read</button>
         </div>
     );
 };
