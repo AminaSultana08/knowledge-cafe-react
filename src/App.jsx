@@ -8,6 +8,7 @@ import Header from './Components/Header/Header'
 function App() {
  
  const [bookmarks, setBookmarks]=useState([])
+ console.log(bookmarks);
  const [readingTime, setReadingTime]= useState(0)
  
  const handleAddToBookmark = blog=>{
@@ -15,14 +16,24 @@ function App() {
   setBookmarks(newBookMarks)
  }
 
- const handleMarkAsRead =(id,time)=>{
-  const newReadingTime =readingTime+time
+//  const handleMarkAsRead =(id,time)=>{
+//   const newReadingTime =readingTime+time
+//   setReadingTime(newReadingTime);
+  
+//   const remainingBookmarks =bookmarks.filter(bookmark=>bookmark.id !== id)
+//   setBookmarks(remainingBookmarks)
+//  }
+const handleMarkAsRead = (id, time) => {
+  const newReadingTime = readingTime + time;
   setReadingTime(newReadingTime);
-   //remove the read from bookmark
-  //  console.log('remove bookmark',id);
-  const remainingBookmarks =bookmarks.filter(bookmark=>bookmark.id !== id)
-  setBookmarks(remainingBookmarks)
- }
+
+  const indexToRemove = bookmarks.findIndex(bookmark => bookmark.id === id);
+  if (indexToRemove !== -1) {
+    const newBookmarks = [...bookmarks];
+    newBookmarks.splice(indexToRemove, 1);
+    setBookmarks(newBookmarks);
+  }
+};
 
 
   return (
